@@ -13,8 +13,8 @@ Direct3D:
     VRAM:     4040 MB
     Driver:   32.0.15.7283
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.895 seconds
-- Finished resetting the current domain, in  0.030 seconds
+- Loaded All Assemblies, in  9.581 seconds
+- Finished resetting the current domain, in  0.029 seconds
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
 [Physics::Module] Id: 0xf2b8ea05
@@ -24,44 +24,46 @@ Begin MonoManager ReloadAssembly
 <RI> Initializing input.
 Using Windows.Gaming.Input
 <RI> Input initialized.
-<RI> Initialized touch support.
-UnloadTime: 11.260300 ms
 Input System polling thread started.
+<RI> Initialized touch support.
+UnloadTime: 12.131000 ms
 Steam initializing
 Steam logged in as RUNE
 Selected online subsystem SteamOnlineSubsystem
 Steam stats received.
 Unloading 5 Unused Serialized files (Serialized files now loaded: 528)
-UnloadTime: 1.373000 ms
+UnloadTime: 1.471600 ms
 Discovered supported languages: DE, EN, ES, FR, IT, JA, KO, PT, RU, ZH
 Loaded saved language code 'PT'
 Restored language code 'PT'
 Couldn't find a Game Manager, make sure one exists in the scene.
 Couldn't find GameCameras, make sure one exists in the scene.
 Unloading 51 unused Assets to reduce memory usage. Loaded Objects now: 6501.
-Total: 35.293200 ms (FindLiveObjects: 0.554000 ms CreateObjectMapping: 0.376100 ms MarkObjects: 34.277100 ms  DeleteObjects: 0.050900 ms)
+Total: 23.756800 ms (FindLiveObjects: 0.274100 ms CreateObjectMapping: 0.253600 ms MarkObjects: 23.186000 ms  DeleteObjects: 0.039700 ms)
 
-Unloading 2 Unused Serialized files (Serialized files now loaded: 528)
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 13733.
-Total: 6.824400 ms (FindLiveObjects: 0.569400 ms CreateObjectMapping: 0.895100 ms MarkObjects: 5.317000 ms  DeleteObjects: 0.042400 ms)
+Unloading 1 Unused Serialized files (Serialized files now loaded: 528)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 6501.
+Total: 4.257600 ms (FindLiveObjects: 0.384800 ms CreateObjectMapping: 0.414800 ms MarkObjects: 3.427900 ms  DeleteObjects: 0.029700 ms)
 
 Couldn't find GameCameras, make sure one exists in the scene.
-Unloading 1 Unused Serialized files (Serialized files now loaded: 582)
+Unloading 2 Unused Serialized files (Serialized files now loaded: 582)
 Couldn't find a Game Manager, make sure one exists in the scene.
-UnloadTime: 7.379400 ms
+UnloadTime: 7.588400 ms
 Loaded saved language code 'PT'
 Restored language code 'PT'
 Unloading 73 unused Assets to reduce memory usage. Loaded Objects now: 67429.
-Total: 42.095300 ms (FindLiveObjects: 4.389700 ms CreateObjectMapping: 6.166200 ms MarkObjects: 31.228800 ms  DeleteObjects: 0.310000 ms)
+Total: 40.371900 ms (FindLiveObjects: 4.454800 ms CreateObjectMapping: 5.674000 ms MarkObjects: 29.856100 ms  DeleteObjects: 0.386800 ms)
 
+MenuButton missing flashEffect!
+MenuButton missing flashEffect!
 MenuButton missing flashEffect!
 Making UI menu lean.
 Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
 Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
 Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Unloading 3 Unused Serialized files (Serialized files now loaded: 617)
-Unloading 115 unused Assets to reduce memory usage. Loaded Objects now: 120393.
-Total: 84.496300 ms (FindLiveObjects: 8.322100 ms CreateObjectMapping: 11.141900 ms MarkObjects: 64.260500 ms  DeleteObjects: 0.771300 ms)
+Unloading 3 Unused Serialized files (Serialized files now loaded: 642)
+Unloading 113 unused Assets to reduce memory usage. Loaded Objects now: 133771.
+Total: 98.559900 ms (FindLiveObjects: 8.734900 ms CreateObjectMapping: 12.521800 ms MarkObjects: 76.335900 ms  DeleteObjects: 0.966900 ms)
 
 Converting Vertex Colors from Color32 to Color.
 Converting Vertex Colors from Color32 to Color.
@@ -70,200 +72,3 @@ Failed to data to C:/Users/ADM/AppData/LocalLow/Team Cherry/Hollow Knight Silkso
   at System.IO.FileSystem.ReplaceFile (System.String sourceFullPath, System.String destFullPath, System.String destBackupFullPath, System.Boolean ignoreMetadataErrors) [0x0002c] in <e19fb1224222436ca0871ff12e7fb293>:0 
   at System.IO.File.Replace (System.String sourceFileName, System.String destinationFileName, System.String destinationBackupFileName, System.Boolean ignoreMetadataErrors) [0x00034] in <e19fb1224222436ca0871ff12e7fb293>:0 
   at JsonSharedData.WriteAllBytesSafe (System.String path, System.Byte[] data) [0x00078] in <35f45ff2c83241c0ab51857388306087>:0 
-Attempting to set `time` on an audio source that has a resource assigned that is not a clip is ignored!
-Attempting to set `time` on an audio source that has a resource assigned that is not a clip is ignored!
-Attempting to set `time` on an audio source that has a resource assigned that is not a clip is ignored!
-Attempting to set `time` on an audio source that has a resource assigned that is not a clip is ignored!
-Failed to data to C:/Users/ADM/AppData/LocalLow/Team Cherry/Hollow Knight Silksong\6144\shared.dat: System.IO.FileNotFoundException: Unable to find the specified file.
-  at System.IO.FileSystem.ReplaceFile (System.String sourceFullPath, System.String destFullPath, System.String destBackupFullPath, System.Boolean ignoreMetadataErrors) [0x0002c] in <e19fb1224222436ca0871ff12e7fb293>:0 
-  at System.IO.File.Replace (System.String sourceFileName, System.String destinationFileName, System.String destinationBackupFileName, System.Boolean ignoreMetadataErrors) [0x00034] in <e19fb1224222436ca0871ff12e7fb293>:0 
-  at JsonSharedData.WriteAllBytesSafe (System.String path, System.Byte[] data) [0x00078] in <35f45ff2c83241c0ab51857388306087>:0 
-Attempting to set `time` on an audio source that has a resource assigned that is not a clip is ignored!
-Attempting to set `time` on an audio source that has a resource assigned that is not a clip is ignored!
-Attempting to set `time` on an audio source that has a resource assigned that is not a clip is ignored!
-Attempting to set `time` on an audio source that has a resource assigned that is not a clip is ignored!
-Attempting to set `time` on an audio source that has a resource assigned that is not a clip is ignored!
-Attempting to set `time` on an audio source that has a resource assigned that is not a clip is ignored!
-Pushing stat FLEAS_HALF_STAT value: 5/15
-Pushing stat FLEAS_HALF_STAT value: 5/15
-Pushing stat FIRST_MASK_STAT value: 3/4
-Pushing stat ALL_MASKS_STAT value: 3/20
-Failed to data to C:/Users/ADM/AppData/LocalLow/Team Cherry/Hollow Knight Silksong\6144\shared.dat: System.IO.FileNotFoundException: Unable to find the specified file.
-  at System.IO.FileSystem.ReplaceFile (System.String sourceFullPath, System.String destFullPath, System.String destBackupFullPath, System.Boolean ignoreMetadataErrors) [0x0002c] in <e19fb1224222436ca0871ff12e7fb293>:0 
-  at System.IO.File.Replace (System.String sourceFileName, System.String destinationFileName, System.String destinationBackupFileName, System.Boolean ignoreMetadataErrors) [0x00034] in <e19fb1224222436ca0871ff12e7fb293>:0 
-  at JsonSharedData.WriteAllBytesSafe (System.String path, System.Byte[] data) [0x00078] in <35f45ff2c83241c0ab51857388306087>:0 
-Unloading 1 Unused Serialized files (Serialized files now loaded: 623)
-Unloading 5656 unused Assets to reduce memory usage. Loaded Objects now: 140593.
-Total: 128.299100 ms (FindLiveObjects: 12.774100 ms CreateObjectMapping: 9.602700 ms MarkObjects: 77.012000 ms  DeleteObjects: 28.909600 ms)
-
-Attempting to set `time` on an audio source that has a resource assigned that is not a clip is ignored!
-Attempting to set `time` on an audio source that has a resource assigned that is not a clip is ignored!
-Attempting to set `time` on an audio source that has a resource assigned that is not a clip is ignored!
-Attempting to set `time` on an audio source that has a resource assigned that is not a clip is ignored!
-Hazard Respawn Trigger v2 (12) does not have a Hazard Respawn Marker Set
-Hazard Respawn Trigger v2 (12) does not have a Hazard Respawn Marker Set
-Attempting to set `time` on an audio source that has a resource assigned that is not a clip is ignored!
-Attempting to set `time` on an audio source that has a resource assigned that is not a clip is ignored!
-Failed to data to C:/Users/ADM/AppData/LocalLow/Team Cherry/Hollow Knight Silksong\6144\shared.dat: System.IO.FileNotFoundException: Unable to find the specified file.
-  at System.IO.FileSystem.ReplaceFile (System.String sourceFullPath, System.String destFullPath, System.String destBackupFullPath, System.Boolean ignoreMetadataErrors) [0x0002c] in <e19fb1224222436ca0871ff12e7fb293>:0 
-  at System.IO.File.Replace (System.String sourceFileName, System.String destinationFileName, System.String destinationBackupFileName, System.Boolean ignoreMetadataErrors) [0x00034] in <e19fb1224222436ca0871ff12e7fb293>:0 
-  at JsonSharedData.WriteAllBytesSafe (System.String path, System.Byte[] data) [0x00078] in <35f45ff2c83241c0ab51857388306087>:0 
-Unloading 1 Unused Serialized files (Serialized files now loaded: 620)
-Unloading 988 unused Assets to reduce memory usage. Loaded Objects now: 140683.
-Total: 110.933400 ms (FindLiveObjects: 11.635100 ms CreateObjectMapping: 8.504700 ms MarkObjects: 82.971500 ms  DeleteObjects: 7.821500 ms)
-
-Attempting to set `time` on an audio source that has a resource assigned that is not a clip is ignored!
-Attempting to set `time` on an audio source that has a resource assigned that is not a clip is ignored!
-Attempting to set `time` on an audio source that has a resource assigned that is not a clip is ignored!
-Attempting to set `time` on an audio source that has a resource assigned that is not a clip is ignored!
-Attempting to set `time` on an audio source that has a resource assigned that is not a clip is ignored!
-Attempting to set `time` on an audio source that has a resource assigned that is not a clip is ignored!
-Hazard Respawn Trigger v2 (12) does not have a Hazard Respawn Marker Set
-Pushing stat ALL_MAPS_STAT value: 7/28
-Failed to data to C:/Users/ADM/AppData/LocalLow/Team Cherry/Hollow Knight Silksong\6144\shared.dat: System.IO.FileNotFoundException: Unable to find the specified file.
-  at System.IO.FileSystem.ReplaceFile (System.String sourceFullPath, System.String destFullPath, System.String destBackupFullPath, System.Boolean ignoreMetadataErrors) [0x0002c] in <e19fb1224222436ca0871ff12e7fb293>:0 
-  at System.IO.File.Replace (System.String sourceFileName, System.String destinationFileName, System.String destinationBackupFileName, System.Boolean ignoreMetadataErrors) [0x00034] in <e19fb1224222436ca0871ff12e7fb293>:0 
-  at JsonSharedData.WriteAllBytesSafe (System.String path, System.Byte[] data) [0x00078] in <35f45ff2c83241c0ab51857388306087>:0 
-Failed to data to C:/Users/ADM/AppData/LocalLow/Team Cherry/Hollow Knight Silksong\6144\shared.dat: System.IO.FileNotFoundException: Unable to find the specified file.
-  at System.IO.FileSystem.ReplaceFile (System.String sourceFullPath, System.String destFullPath, System.String destBackupFullPath, System.Boolean ignoreMetadataErrors) [0x0002c] in <e19fb1224222436ca0871ff12e7fb293>:0 
-  at System.IO.File.Replace (System.String sourceFileName, System.String destinationFileName, System.String destinationBackupFileName, System.Boolean ignoreMetadataErrors) [0x00034] in <e19fb1224222436ca0871ff12e7fb293>:0 
-  at JsonSharedData.WriteAllBytesSafe (System.String path, System.Byte[] data) [0x00078] in <35f45ff2c83241c0ab51857388306087>:0 
-Unloading 1 Unused Serialized files (Serialized files now loaded: 663)
-Unloading 7179 unused Assets to reduce memory usage. Loaded Objects now: 154378.
-Total: 194.832100 ms (FindLiveObjects: 13.225000 ms CreateObjectMapping: 12.142300 ms MarkObjects: 102.108700 ms  DeleteObjects: 67.355400 ms)
-
-Failed to data to C:/Users/ADM/AppData/LocalLow/Team Cherry/Hollow Knight Silksong\6144\shared.dat: System.IO.FileNotFoundException: Unable to find the specified file.
-  at System.IO.FileSystem.ReplaceFile (System.String sourceFullPath, System.String destFullPath, System.String destBackupFullPath, System.Boolean ignoreMetadataErrors) [0x0002c] in <e19fb1224222436ca0871ff12e7fb293>:0 
-  at System.IO.File.Replace (System.String sourceFileName, System.String destinationFileName, System.String destinationBackupFileName, System.Boolean ignoreMetadataErrors) [0x00034] in <e19fb1224222436ca0871ff12e7fb293>:0 
-  at JsonSharedData.WriteAllBytesSafe (System.String path, System.Byte[] data) [0x00078] in <35f45ff2c83241c0ab51857388306087>:0 
-Unloading 1 Unused Serialized files (Serialized files now loaded: 663)
-Unloading 2182 unused Assets to reduce memory usage. Loaded Objects now: 153924.
-Total: 115.876700 ms (FindLiveObjects: 12.373500 ms CreateObjectMapping: 9.274300 ms MarkObjects: 83.980500 ms  DeleteObjects: 10.247500 ms)
-
-Cannot use 'linearVelocity' on a static body.
-Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
-Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Audio Player Actor Distant V2(Clone)).
-Failed to data to C:/Users/ADM/AppData/LocalLow/Team Cherry/Hollow Knight Silksong\6144\shared.dat: System.IO.FileNotFoundException: Unable to find the specified file.
-  at System.IO.FileSystem.ReplaceFile (System.String sourceFullPath, System.String destFullPath, System.String destBackupFullPath, System.Boolean ignoreMetadataErrors) [0x0002c] in <e19fb1224222436ca0871ff12e7fb293>:0 
-  at System.IO.File.Replace (System.String sourceFileName, System.String destinationFileName, System.String destinationBackupFileName, System.Boolean ignoreMetadataErrors) [0x00034] in <e19fb1224222436ca0871ff12e7fb293>:0 
-  at JsonSharedData.WriteAllBytesSafe (System.String path, System.Byte[] data) [0x00078] in <35f45ff2c83241c0ab51857388306087>:0 
-Couldn't find transition point "door_caravanTravelEnd", falling back to first available: "right1"
-Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
-Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
-Cannot set the parent of the GameObject 'Water Point L' while activating or deactivating the parent GameObject 'Caravan Troupe Flea Swimmer'.
-Cannot set the parent of the GameObject 'Water Point R' while activating or deactivating the parent GameObject 'Caravan Troupe Flea Swimmer'.
-Cannot set the parent of the GameObject 'Dive Point' while activating or deactivating the parent GameObject 'Caravan Troupe Flea Swimmer'.
-Cannot set the parent of the GameObject 'Start Point' while activating or deactivating the parent GameObject 'Caravan Troupe Flea Swimmer'.
-Cannot set the parent of the GameObject 'Water Point L' while activating or deactivating the parent GameObject 'Caravan Troupe Flea Swimmer (1)'.
-Cannot set the parent of the GameObject 'Water Point R' while activating or deactivating the parent GameObject 'Caravan Troupe Flea Swimmer (1)'.
-Cannot set the parent of the GameObject 'Dive Point' while activating or deactivating the parent GameObject 'Caravan Troupe Flea Swimmer (1)'.
-Cannot set the parent of the GameObject 'Start Point' while activating or deactivating the parent GameObject 'Caravan Troupe Flea Swimmer (1)'.
-Failed to data to C:/Users/ADM/AppData/LocalLow/Team Cherry/Hollow Knight Silksong\6144\shared.dat: System.IO.FileNotFoundException: Unable to find the specified file.
-  at System.IO.FileSystem.ReplaceFile (System.String sourceFullPath, System.String destFullPath, System.String destBackupFullPath, System.Boolean ignoreMetadataErrors) [0x0002c] in <e19fb1224222436ca0871ff12e7fb293>:0 
-  at System.IO.File.Replace (System.String sourceFileName, System.String destinationFileName, System.String destinationBackupFileName, System.Boolean ignoreMetadataErrors) [0x00034] in <e19fb1224222436ca0871ff12e7fb293>:0 
-  at JsonSharedData.WriteAllBytesSafe (System.String path, System.Byte[] data) [0x00078] in <35f45ff2c83241c0ab51857388306087>:0 
-Failed to data to C:/Users/ADM/AppData/LocalLow/Team Cherry/Hollow Knight Silksong\6144\shared.dat: System.IO.FileNotFoundException: Unable to find the specified file.
-  at System.IO.FileSystem.ReplaceFile (System.String sourceFullPath, System.String destFullPath, System.String destBackupFullPath, System.Boolean ignoreMetadataErrors) [0x0002c] in <e19fb1224222436ca0871ff12e7fb293>:0 
-  at System.IO.File.Replace (System.String sourceFileName, System.String destinationFileName, System.String destinationBackupFileName, System.Boolean ignoreMetadataErrors) [0x00034] in <e19fb1224222436ca0871ff12e7fb293>:0 
-  at JsonSharedData.WriteAllBytesSafe (System.String path, System.Byte[] data) [0x00078] in <35f45ff2c83241c0ab51857388306087>:0 
-Pushing stat ALL_TOOLS_STAT value: 7/51
-Couldn't find transition point "door1", falling back to first available: "right1"
-Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
-Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
-Cannot set the parent of the GameObject 'Water Point L' while activating or deactivating the parent GameObject 'Caravan Troupe Flea Swimmer'.
-Cannot set the parent of the GameObject 'Water Point R' while activating or deactivating the parent GameObject 'Caravan Troupe Flea Swimmer'.
-Cannot set the parent of the GameObject 'Dive Point' while activating or deactivating the parent GameObject 'Caravan Troupe Flea Swimmer'.
-Cannot set the parent of the GameObject 'Start Point' while activating or deactivating the parent GameObject 'Caravan Troupe Flea Swimmer'.
-Cannot set the parent of the GameObject 'Water Point L' while activating or deactivating the parent GameObject 'Caravan Troupe Flea Swimmer (1)'.
-Cannot set the parent of the GameObject 'Water Point R' while activating or deactivating the parent GameObject 'Caravan Troupe Flea Swimmer (1)'.
-Cannot set the parent of the GameObject 'Dive Point' while activating or deactivating the parent GameObject 'Caravan Troupe Flea Swimmer (1)'.
-Cannot set the parent of the GameObject 'Start Point' while activating or deactivating the parent GameObject 'Caravan Troupe Flea Swimmer (1)'.
-Attempting to set `time` on an audio source that has a resource assigned that is not a clip is ignored!
-Attempting to set `time` on an audio source that has a resource assigned that is not a clip is ignored!
-Attempting to set `time` on an audio source that has a resource assigned that is not a clip is ignored!
-Attempting to set `time` on an audio source that has a resource assigned that is not a clip is ignored!
-Attempting to set `time` on an audio source that has a resource assigned that is not a clip is ignored!
-Attempting to set `time` on an audio source that has a resource assigned that is not a clip is ignored!
-Coroutine couldn't be started because the the game object 'Spin Collider' is inactive!
-Failed to data to C:/Users/ADM/AppData/LocalLow/Team Cherry/Hollow Knight Silksong\6144\shared.dat: System.IO.FileNotFoundException: Unable to find the specified file.
-  at System.IO.FileSystem.ReplaceFile (System.String sourceFullPath, System.String destFullPath, System.String destBackupFullPath, System.Boolean ignoreMetadataErrors) [0x0002c] in <e19fb1224222436ca0871ff12e7fb293>:0 
-  at System.IO.File.Replace (System.String sourceFileName, System.String destinationFileName, System.String destinationBackupFileName, System.Boolean ignoreMetadataErrors) [0x00034] in <e19fb1224222436ca0871ff12e7fb293>:0 
-  at JsonSharedData.WriteAllBytesSafe (System.String path, System.Byte[] data) [0x00078] in <35f45ff2c83241c0ab51857388306087>:0 
-Unloading 1 Unused Serialized files (Serialized files now loaded: 639)
-Unloading 8865 unused Assets to reduce memory usage. Loaded Objects now: 138755.
-Total: 166.063900 ms (FindLiveObjects: 11.751400 ms CreateObjectMapping: 9.931200 ms MarkObjects: 71.732200 ms  DeleteObjects: 72.648600 ms)
-
-Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
-Could Not Create Action: : Behaviour: Sing:  (Maybe the script was removed?)
-Cannot set the parent of the GameObject 'Water Point L' while activating or deactivating the parent GameObject 'Caravan Troupe Flea Swimmer'.
-Cannot set the parent of the GameObject 'Water Point R' while activating or deactivating the parent GameObject 'Caravan Troupe Flea Swimmer'.
-Cannot set the parent of the GameObject 'Dive Point' while activating or deactivating the parent GameObject 'Caravan Troupe Flea Swimmer'.
-Cannot set the parent of the GameObject 'Start Point' while activating or deactivating the parent GameObject 'Caravan Troupe Flea Swimmer'.
-Cannot set the parent of the GameObject 'Water Point L' while activating or deactivating the parent GameObject 'Caravan Troupe Flea Swimmer (1)'.
-Cannot set the parent of the GameObject 'Water Point R' while activating or deactivating the parent GameObject 'Caravan Troupe Flea Swimmer (1)'.
-Cannot set the parent of the GameObject 'Dive Point' while activating or deactivating the parent GameObject 'Caravan Troupe Flea Swimmer (1)'.
-Cannot set the parent of the GameObject 'Start Point' while activating or deactivating the parent GameObject 'Caravan Troupe Flea Swimmer (1)'.
-Failed to data to C:/Users/ADM/AppData/LocalLow/Team Cherry/Hollow Knight Silksong\6144\shared.dat: System.IO.FileNotFoundException: Unable to find the specified file.
-  at System.IO.FileSystem.ReplaceFile (System.String sourceFullPath, System.String destFullPath, System.String destBackupFullPath, System.Boolean ignoreMetadataErrors) [0x0002c] in <e19fb1224222436ca0871ff12e7fb293>:0 
-  at System.IO.File.Replace (System.String sourceFileName, System.String destinationFileName, System.String destinationBackupFileName, System.Boolean ignoreMetadataErrors) [0x00034] in <e19fb1224222436ca0871ff12e7fb293>:0 
-  at JsonSharedData.WriteAllBytesSafe (System.String path, System.Byte[] data) [0x00078] in <35f45ff2c83241c0ab51857388306087>:0 
-Attempting to set `time` on an audio source that has a resource assigned that is not a clip is ignored!
-Attempting to set `time` on an audio source that has a resource assigned that is not a clip is ignored!
-Attempting to set `time` on an audio source that has a resource assigned that is not a clip is ignored!
-Attempting to set `time` on an audio source that has a resource assigned that is not a clip is ignored!
-Failed to data to C:/Users/ADM/AppData/LocalLow/Team Cherry/Hollow Knight Silksong\6144\shared.dat: System.IO.FileNotFoundException: Unable to find the specified file.
-  at System.IO.FileSystem.ReplaceFile (System.String sourceFullPath, System.String destFullPath, System.String destBackupFullPath, System.Boolean ignoreMetadataErrors) [0x0002c] in <e19fb1224222436ca0871ff12e7fb293>:0 
-  at System.IO.File.Replace (System.String sourceFileName, System.String destinationFileName, System.String destinationBackupFileName, System.Boolean ignoreMetadataErrors) [0x00034] in <e19fb1224222436ca0871ff12e7fb293>:0 
-  at JsonSharedData.WriteAllBytesSafe (System.String path, System.Byte[] data) [0x00078] in <35f45ff2c83241c0ab51857388306087>:0 
-Failed to data to C:/Users/ADM/AppData/LocalLow/Team Cherry/Hollow Knight Silksong\6144\shared.dat: System.IO.FileNotFoundException: Unable to find the specified file.
-  at System.IO.FileSystem.ReplaceFile (System.String sourceFullPath, System.String destFullPath, System.String destBackupFullPath, System.Boolean ignoreMetadataErrors) [0x0002c] in <e19fb1224222436ca0871ff12e7fb293>:0 
-  at System.IO.File.Replace (System.String sourceFileName, System.String destinationFileName, System.String destinationBackupFileName, System.Boolean ignoreMetadataErrors) [0x00034] in <e19fb1224222436ca0871ff12e7fb293>:0 
-  at JsonSharedData.WriteAllBytesSafe (System.String path, System.Byte[] data) [0x00078] in <35f45ff2c83241c0ab51857388306087>:0 
-Unloading 1 Unused Serialized files (Serialized files now loaded: 629)
-Unloading 5514 unused Assets to reduce memory usage. Loaded Objects now: 141273.
-Total: 144.380400 ms (FindLiveObjects: 11.857500 ms CreateObjectMapping: 9.438800 ms MarkObjects: 83.278100 ms  DeleteObjects: 39.805200 ms)
-
-Failed to data to C:/Users/ADM/AppData/LocalLow/Team Cherry/Hollow Knight Silksong\6144\shared.dat: System.IO.FileNotFoundException: Unable to find the specified file.
-  at System.IO.FileSystem.ReplaceFile (System.String sourceFullPath, System.String destFullPath, System.String destBackupFullPath, System.Boolean ignoreMetadataErrors) [0x0002c] in <e19fb1224222436ca0871ff12e7fb293>:0 
-  at System.IO.File.Replace (System.String sourceFileName, System.String destinationFileName, System.String destinationBackupFileName, System.Boolean ignoreMetadataErrors) [0x00034] in <e19fb1224222436ca0871ff12e7fb293>:0 
-  at JsonSharedData.WriteAllBytesSafe (System.String path, System.Byte[] data) [0x00078] in <35f45ff2c83241c0ab51857388306087>:0 
-Unloading 1 Unused Serialized files (Serialized files now loaded: 623)
-Unloading 3858 unused Assets to reduce memory usage. Loaded Objects now: 141439.
-Total: 122.365800 ms (FindLiveObjects: 11.017800 ms CreateObjectMapping: 9.181400 ms MarkObjects: 88.526700 ms  DeleteObjects: 13.639200 ms)
-
-Hazard Respawn Trigger v2 (1) does not have a Hazard Respawn Marker Set
-Hazard Respawn Trigger v2 (1) does not have a Hazard Respawn Marker Set
-Failed to data to C:/Users/ADM/AppData/LocalLow/Team Cherry/Hollow Knight Silksong\6144\shared.dat: System.IO.FileNotFoundException: Unable to find the specified file.
-  at System.IO.FileSystem.ReplaceFile (System.String sourceFullPath, System.String destFullPath, System.String destBackupFullPath, System.Boolean ignoreMetadataErrors) [0x0002c] in <e19fb1224222436ca0871ff12e7fb293>:0 
-  at System.IO.File.Replace (System.String sourceFileName, System.String destinationFileName, System.String destinationBackupFileName, System.Boolean ignoreMetadataErrors) [0x00034] in <e19fb1224222436ca0871ff12e7fb293>:0 
-  at JsonSharedData.WriteAllBytesSafe (System.String path, System.Byte[] data) [0x00078] in <35f45ff2c83241c0ab51857388306087>:0 
-Unloading 1 Unused Serialized files (Serialized files now loaded: 622)
-Unloading 3919 unused Assets to reduce memory usage. Loaded Objects now: 141468.
-Total: 121.654800 ms (FindLiveObjects: 10.576600 ms CreateObjectMapping: 9.145100 ms MarkObjects: 88.357700 ms  DeleteObjects: 13.574800 ms)
-
-Hazard Respawn Trigger v2 (1) does not have a Hazard Respawn Marker Set
-Pushing stat ALL_SILK_SKILLS_STAT value: 2/6
-Failed to data to C:/Users/ADM/AppData/LocalLow/Team Cherry/Hollow Knight Silksong\6144\shared.dat: System.IO.FileNotFoundException: Unable to find the specified file.
-  at System.IO.FileSystem.ReplaceFile (System.String sourceFullPath, System.String destFullPath, System.String destBackupFullPath, System.Boolean ignoreMetadataErrors) [0x0002c] in <e19fb1224222436ca0871ff12e7fb293>:0 
-  at System.IO.File.Replace (System.String sourceFileName, System.String destinationFileName, System.String destinationBackupFileName, System.Boolean ignoreMetadataErrors) [0x00034] in <e19fb1224222436ca0871ff12e7fb293>:0 
-  at JsonSharedData.WriteAllBytesSafe (System.String path, System.Byte[] data) [0x00078] in <35f45ff2c83241c0ab51857388306087>:0 
-Failed to data to C:/Users/ADM/AppData/LocalLow/Team Cherry/Hollow Knight Silksong\6144\shared.dat: System.IO.FileNotFoundException: Unable to find the specified file.
-  at System.IO.FileSystem.ReplaceFile (System.String sourceFullPath, System.String destFullPath, System.String destBackupFullPath, System.Boolean ignoreMetadataErrors) [0x0002c] in <e19fb1224222436ca0871ff12e7fb293>:0 
-  at System.IO.File.Replace (System.String sourceFileName, System.String destinationFileName, System.String destinationBackupFileName, System.Boolean ignoreMetadataErrors) [0x00034] in <e19fb1224222436ca0871ff12e7fb293>:0 
-  at JsonSharedData.WriteAllBytesSafe (System.String path, System.Byte[] data) [0x00078] in <35f45ff2c83241c0ab51857388306087>:0 
-Attempting to set `time` on an audio source that has a resource assigned that is not a clip is ignored!
-Attempting to set `time` on an audio source that has a resource assigned that is not a clip is ignored!
-Can not play a disabled audio source
-Couldn't find a Game Manager, make sure one exists in the scene.
-Couldn't find a Game Manager, make sure one exists in the scene.
-Couldn't find a Game Manager, make sure one exists in the scene.
-Couldn't find a Game Manager, make sure one exists in the scene.
-Shutting down Steam API.
-[Physics::Module] Cleanup current backned.
-[Physics::Module] Id: 0xf2b8ea05
-Input System module state changed to: ShutdownInProgress.
-Input System polling thread stopped.
-Input System polling thread exited.
-Input System module state changed to: Shutdown.
